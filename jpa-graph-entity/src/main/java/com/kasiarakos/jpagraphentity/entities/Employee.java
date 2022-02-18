@@ -34,11 +34,6 @@ import java.util.List;
                         attributeNodes = {
                                 @NamedAttributeNode("city")
                         }),
-                @NamedSubgraph(
-                        name = "address_city",
-                        attributeNodes = {
-                                @NamedAttributeNode("city")
-                        })
         },
         subclassSubgraphs = {
                 @NamedSubgraph(
